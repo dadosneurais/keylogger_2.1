@@ -31,9 +31,9 @@ port = 587
 subject = today_str
 body = 'The computer has just been turned on.'
 smtp_server = 'smtp.gmail.com'
-sender_email = 'dadosneurais@gmail.com'
-receiver_email = 'dadosneurais@gmail.com'
-password = 'juyxildtrkthhhpc'
+sender_email = 'enter with the sender email'
+receiver_email = 'enter with the receiver email'
+password = 'paste the "app passwords security" from the gmail account'
 def send_email():
 
     if not os.path.exists(fileLog):
